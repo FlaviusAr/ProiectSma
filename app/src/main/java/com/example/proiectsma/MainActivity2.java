@@ -21,6 +21,7 @@ public class MainActivity2 extends AppCompatActivity implements BottomNavigation
     private Fragment1 fragment1;
     private Fragment2 fragment2;
     private Fragment3 fragment3;
+    private Fragment4 fragment4;
     private Fragment activeFragment;
     final FragmentManager fragmentManager = getSupportFragmentManager();
 
@@ -52,10 +53,15 @@ public class MainActivity2 extends AppCompatActivity implements BottomNavigation
                 fragmentManager.beginTransaction().hide(activeFragment).show(fragment3).commit();
                 activeFragment = fragment3;
                 return true;
+            case R.id.navigation_settings:
+                fragmentManager.beginTransaction().hide(activeFragment).show(fragment4).commit();
+                activeFragment = fragment3;
+                return true;
         }
         return false;
     }
     private void LoadFragment() {
+        fragmentManager.beginTransaction().add(R.id.nav_host_fragment, fragment4, "4").hide(fragment4).commit();
         fragmentManager.beginTransaction().add(R.id.nav_host_fragment, fragment3, "3").hide(fragment3).commit();
         fragmentManager.beginTransaction().add(R.id.nav_host_fragment, fragment2, "2").hide(fragment2).commit();
         fragmentManager.beginTransaction().add(R.id.nav_host_fragment, fragment1, "1").commit();
@@ -65,6 +71,7 @@ public class MainActivity2 extends AppCompatActivity implements BottomNavigation
         fragment1 = new Fragment1();
         fragment2 = new Fragment2();
         fragment3 = new Fragment3();
+        fragment4 = new Fragment4();
 
         activeFragment = fragment1;
     }

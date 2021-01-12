@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exercise1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:textAlignment="center"
+        android:text="Abdominal crunches"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:textColor="#000000"
+        />
+    <ImageView
+        android:src="@drawable/abdominal_crunches"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/instaAccent"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="360dp"
+        android:text="1.Lie down on your back.    Plant your feet on the floor, hip-width apart. Bend your knees and place your arms across your chest. Contract your abs and inhale.
+                                                                         2.Exhale and lift your upper body, keeping your head and neck relaxed.
+                                                  3.Inhale and return to the starting position."
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#000000"
+       />
+
+
+</RelativeLayout>

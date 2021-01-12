@@ -1,0 +1,35 @@
+package com.example.proiectsma;
+
+
+import android.content.Context;
+import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.squareup.picasso.Picasso;
+
+public class ViewHolder extends RecyclerView.ViewHolder {
+    CardView cardView;
+    public ViewHolder(@NonNull View itemView) {
+        super(itemView);
+    }
+
+    public void setDetails(Context context,String image,String title){
+
+        ImageView imageView = itemView.findViewById(R.id.iv_item);
+        TextView textView = itemView.findViewById(R.id.tv_item);
+        cardView = itemView.findViewById(R.id.cv_item);
+
+        Picasso.get().load(image).into(imageView);
+        textView.setText(title);
+
+        Animation animation = AnimationUtils.loadAnimation(context,android.R.anim.slide_in_left);
+        itemView.setAnimation(animation);
+    }
+}

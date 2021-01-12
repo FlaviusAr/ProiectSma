@@ -1,3 +1,124 @@
 <resources>
     <string name="app_name">proiectSMA</string>
+
+
+    <string name="title_activity_main2">Daily Workout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Setting</string>
+    <string name="home">Home</string>
+    <string name="exercise">Exercise</string>
+    <string name="dummy_txt">description</string>
+
+    <string name="ADS_VISIBILITY" translatable="false">YES</string>
+    <string name="app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="BannerAds" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="InterstitialAds" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="mail_feedback_email" translatable="false">templatevilla007@gmail.com</string>
+    <string name="reminder">Reminder </string>
+    <string name="share_to">Share to</string>
+    <string name="level">Select type</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="defficult">Difficult</string>
+    <string name="notify_des">\"Daily notification !</string>
+    <string name="height">Height</string>
+    <string name="calc">Calculate</string>
+    <string name="kg">KG</string>
+    <string name="cm">CM</string>
+    <string name="in">IN</string>
+    <string name="today_date">Today Date:</string>
+    <string name="done">Workout Done</string>
+    <string name="not_done">Incomplete Task</string>
+    <string name="well_done">Nice you\'ve done it!</string>
+    <string name="done_today">Congratulation you are done with today\'s workout</string>
+    <string name="ready">Ready to go!</string>
+    <string name="skip">Skip</string>
+    <string name="take_rest">Take A Rest</string>
+    <string name="next">Next</string>
+    <string name="workout">workout</string>
+    <string name="set_rest">Rest set</string>
+    <string name="count_time">Countdown Time</string>
+    <string name="sound_opt">Sound options</string>
+    <string name="community">community</string>
+    <string name="share_friends">Share with friends</string>
+    <string name="support">support us</string>
+    <string name="feedback">Feedback</string>
+    <string name="privacy">Privacy policy</string>
+    <string name="privacy_url" translatable="false">https://www.google.co.uk/</string>
+    <string name="start">START</string>
+    <string name="sec">secs</string>
+    <string name="mute">Mute</string>
+    <string name="voice_guide">TTS sound</string>
+    <string name="coach_tip">Coatch Tips</string>
+    <string name="repeat">Repeat</string>
+    <string name="daily_workout">Daily Workout</string>
+
+
+    <string name="cant_enjoy">You Can\'t Enjoy Welth\n If You\'re Not In Good Health.</string>
+    <string name="go">Let\'s Go</string>
+    <string name="rate">Rate</string>
+    <string name="calander">Calendar</string>
+    <string name="no_data">No Data Found</string>
+    <string name="share_1">I just finished Daily Workout. It\'s challenging and awesome! Daily Workout every day equals to one-hour workout in gym. Try it yourself. Download the app here: </string>
+    <!--<string name="share_2">Daily Workout every day equals to one-hour workout in gym.</string>-->
+    <!--<string name="share_3">Try it yourself. Download the app here:</string>-->
+    <string name="duration">Duration</string>
+    <string name="do_again">Do It Again</string>
+    <string name="share">Share</string>
+    <string name="weight">Weight</string>
+    <string name="healthy_weight">Healthy weight</string>
+    <string name="lb">LB</string>
+    <string name="ft">FT</string>
+    <string name="congrats">Congratulation</string>
+    <string name="valid_height">Enter valid Height</string>
+    <string name="obese">Severely Obese</string>
+    <string name="overweight">Severely Overweight</string>
+    <string name="health_weight">Severely Healthy Weight</string>
+    <string name="under_weight">Severely Underweight</string>
+    <string name="current_bmi">Your Current BMI</string>
+    <string name="calc_bmi">Calculate BMI</string>
+    <string name="ok">OK</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="cancel">Cancel</string>
+    <string name="done_workout">you have done the workout!</string>
+    <string name="feedback_msg">Feedback for Daily Workout</string>
+    <string name="app_version">App Version:</string>
+    <string name="device_os">Device OS: Android \\n Device OS version:</string>
+    <string name="device_model">Device Model:</string>
+    <string name="manufacturer">Device Manufacturer:</string>
+    <string name="email_client">Choose an Email client :</string>
+    <string name="unable_open">unable to open</string>
+    <string name="set_duration">Set duration</string>
+    <string name="set">Set</string>
+    <string name="set_current_weight">Set Your Current Weight</string>
+    <string name="tts">TTS sound</string>
+    <string name="sound">Sound</string>
+    <string name="todo" translatable="true">TODO</string>
+
+    <string name="rest_default_text">15 secs</string>
+    <string name="count_default_text">30 secs</string>
+    <string name="default_date">21/1/18</string>
+    <string name="default_reminder_text">20:00</string>
+    <string name="default_weight">50</string>
+    <string name="default_exercise">0</string>
+    <string name="default_timer">00:01</string>
+    <string name="default_start_up_timer">00:15</string>
+    <string name="second">1</string>
+    <string name="days">Sun,Mon,Tue,Wed,Thu,Fri,Sat</string>
+
+    <string name="readytogo">Ready to go start with </string>
+    <string name="json_name" translatable="false">tips.json</string>
+    <string name="loewtfsafasfsawtl">loewtFSAFASFSAwtl</string>
+
 </resources>

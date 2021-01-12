@@ -1,0 +1,209 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/instaAccent</item>
+        <item name="colorPrimaryDark">@color/materialBlue900</item>
+        <item name="colorAccent">@color/customPrimary</item>
+    </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/materialBlue</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="colorControlHighlight">@color/light200</item>
+        <item name="android:windowAnimationStyle">@style/AppTheme.WindowTransition</item>
+        <item name="android:textColorSecondary">@color/light200</item>
+        <item name="autoCompleteTextViewStyle">@style/SearchText</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="colorControlHighlight">@color/light200</item>
+        <item name="android:windowAnimationStyle">@style/AppTheme.WindowTransition</item>
+    </style>
+
+
+
+
+
+    <style name="AppTheme.WindowTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <!-- UI Design application theme. -->
+    <style name="AppThemeCustom" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/customColorPrimary</item>
+        <item name="colorPrimaryDark">@color/customColorPrimaryDark</item>
+        <item name="colorAccent">@color/customColorAccent</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <!-- Insta app theme -->
+    <style name="AppThemeInsta" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/instaPrimary</item>
+        <item name="colorPrimaryDark">@color/light200</item>
+        <item name="colorAccent">@color/instaAccent</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColorSecondary">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppThemeInsta2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/instaPrimary</item>
+        <item name="colorPrimaryDark">@color/light200</item>
+        <item name="colorAccent">@color/instaAccent</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColorSecondary">@color/colorPrimary</item>
+    </style>
+
+    <style name="SearchText" parent="Widget.AppCompat.Light.AutoCompleteTextView">
+        <item name="android:textColor">@color/lightgrey</item>
+        <item name="android:textColorHint">@color/lightgrey</item>
+    </style>
+
+    <style name="SearchTextLight" parent="Widget.AppCompat.Light.AutoCompleteTextView">
+        <item name="android:textColor">@color/fontColor</item>
+        <item name="android:textColorHint">@color/fontColor</item>
+    </style>
+
+    <!-- Custom app theme -->
+    <style name="AppThemeRed" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/customPrimary</item>
+        <item name="colorPrimaryDark">@color/customPrimaryDark</item>
+        <item name="colorAccent">@color/customAccent</item>
+        <item name="colorControlHighlight">@color/light200</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <!-- Custom app theme -->
+    <style name="AppThemeBlue" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/materialBlue</item>
+        <item name="colorPrimaryDark">@color/materialBlue900</item>
+        <item name="colorAccent">@color/red</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <!-- Basil app theme -->
+    <style name="AppThemeBasil" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/basilPrimary</item>
+        <item name="colorPrimaryDark">@color/basilPrimaryDark</item>
+        <item name="colorAccent">@color/basilAccent</item>
+        <item name="android:textColorPrimary">@color/basilTextPrimary</item>
+        <item name="android:textColorSecondary">@color/basilTextSecondary</item>
+    </style>
+
+    <!-- Basil app theme -->
+    <style name="AppThemePurple" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/purpleAccent</item>
+        <item name="colorPrimaryDark">@color/purpleDark</item>
+        <item name="colorAccent">@color/purpleAccent</item>
+        <item name="colorControlHighlight">@color/light200</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <!-- WhatsApp app theme -->
+    <style name="AppThemeWhatsApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/whatsAppPrimary</item>
+        <item name="colorPrimaryDark">@color/whatsAppDark</item>
+        <item name="colorAccent">@color/whatsAppAccent</item>
+    </style>
+
+    <!-- Crane app theme -->
+    <style name="AppThemeCrane" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/cranePurple</item>
+        <item name="colorPrimaryDark">@color/cranePurpleDark</item>
+        <item name="colorAccent">@color/pink</item>
+    </style>
+
+    <style name="AppThemeShrine" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/shrineColorPrimary</item>
+        <item name="colorPrimaryDark">@color/shrineColorPrimaryDark</item>
+        <item name="colorAccent">@color/shrineColorAccent</item>
+    </style>
+
+
+
+
+    <style name="Widget.Shrine.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="backgroundTint">@color/shrineColorPrimaryDark</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="RatingBarCustom" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/customAccent</item>
+        <item name="colorControlActivated">@color/fontColor</item>
+    </style>
+
+
+    <style name="ButtonStyle" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorAccent</item>
+    </style>
+
+    <style name="EditTextCustom" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@color/fontColor</item>
+        <item name="colorControlActivated">@color/blue</item>
+    </style>
+
+    <style name="EditTextRed" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@color/fontColor</item>
+        <item name="colorControlActivated">@color/red</item>
+    </style>
+
+
+    <style name="EditTextWhite" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+    </style>
+
+    <style name="HideTab" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:tabStripEnabled">false</item>
+    </style>
+
+
+
+
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+
+
+
+
+    <style name="RallyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/rallyBackground</item>
+        <item name="colorPrimaryDark">@color/rallyStatusBar</item>
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+
+
+    <style name="ReplyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/replyPrimary</item>
+        <item name="colorPrimaryDark">@color/replyPrimaryDark</item>
+        <item name="colorAccent">@color/replyAccent</item>
+    </style>
+
+
+    <style name="SpotifyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/purpleAccent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+</resources>

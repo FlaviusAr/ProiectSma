@@ -24,6 +24,9 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,11 +34,13 @@ public class MainActivity extends AppCompatActivity {
     Button btnSignUp;
     Button tvSignIn;
     FirebaseAuth mFirebaseAuth;
+    protected static List<FridayModel> FridayModelList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        initializeList();
 
         mFirebaseAuth = FirebaseAuth.getInstance();
         emailId = findViewById(R.id.editText);
@@ -118,4 +123,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+    private void initializeList(){
+        FridayModelList=new ArrayList<>();
+    }
+
 }
